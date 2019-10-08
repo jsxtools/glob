@@ -1,0 +1,75 @@
+{
+  "name": "@jsxtools/glob",
+  "version": "1.0.0",
+  "description": "convert glob patterns into regular expressions",
+  "author": "Terkel Gjervig <terkel@terkel.com>",
+  "contributors": [
+    "Terkel Gjervig <terkel@terkel.com>",
+    "Jonathan Neal <jonathantneal@hotmail.com>"
+  ],
+  "license": "MIT",
+  "repository": "jsxtools/glob",
+  "homepage": "https://github.com/jsxtools/glob#readme",
+  "bugs": "https://github.com/jsxtools/glob/issues",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "engines": {
+    "node": ">= 0.12"
+  },
+  "scripts": {
+    "test": "npm run test:eslint && npm run test:tape",
+    "test:eslint": "eslint index.js",
+    "test:tape": "node test"
+  },
+  "devDependencies": {
+    "eslint": "^6.5.1"
+  },
+  "eslintConfig": {
+    "env": {
+      "node": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+      "ecmaVersion": 10,
+      "sourceType": "module",
+      "ecmaFeatures": {
+        "impliedStrict": true
+      }
+    }
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "character",
+    "characters",
+    "compare",
+    "conversion",
+    "convert",
+    "directory",
+    "expressions",
+    "file",
+    "folder",
+    "glob",
+    "globstar",
+    "group",
+    "match",
+    "matches",
+    "matching",
+    "parse",
+    "parser",
+    "parses",
+    "path",
+    "paths",
+    "pattern",
+    "patterns",
+    "posix",
+    "range",
+    "regex",
+    "regexp",
+    "regular",
+    "single"
+  ]
+}
